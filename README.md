@@ -1,4 +1,4 @@
-# benedicts-wrk is my repository purley for just while I have no site to display my work examples at the moment.
+# benedicts-wrk is my repository purely for just while I have no site to display my work examples at the moment.
 
 Not for public use as commercial gain.
 
