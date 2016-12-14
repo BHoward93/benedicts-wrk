@@ -1,0 +1,35 @@
+body { color: #000000; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.48; border: 0; margin: 0; }
+
+*, :before, :after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+a, img { border: 0; outline: none; }
+
+.display-ad-size, #wrapper, #wrapper #bg_exit, #wrapper #stage, #wrapper #stage #frame_1, #wrapper #stage #frame_1 #f1_copy1, #wrapper #stage #frame_1 #f1_copy2, #wrapper #stage #frame_2, #wrapper #stage #frame_2 #f2_copy1, #wrapper #stage #frame_2 #ribbon, #wrapper #stage #frame_3, #wrapper #stage #frame_3 #f3_copy, #wrapper #stage #frame_4, #wrapper #stage #frame_4 #f4_copy, #wrapper #stage #frame_4 #icons, #wrapper #stage #frame_4 #icons #icon_briefcase, #wrapper #stage #frame_4 #icons #icon_warning, #wrapper #stage #frame_4 #icons #icon_lamp, #wrapper #stage #end_frame, #wrapper #stage #end_frame #end_frame_copy, #wrapper #stage #checkbox, #wrapper #stage #checkbox #tick, #wrapper #stage #question_mark, #wrapper #stage #chevron, #wrapper #stage #logo { margin: 0; padding: 0; width: 160px; height: 600px; top: 0; left: 0; overflow: hidden; -webkit-backface-visibility: hidden; cursor: pointer; position: absolute; }
+
+.display-abs-pos, #wrapper #stage #frame_1 #f1_copy2, #wrapper #stage #chevron, #wrapper #stage #logo { display: block; opacity: 1; filter: alpha(opacity=1); }
+
+.hide-abs-pos, #wrapper #stage #frame_1, #wrapper #stage #frame_1 #f1_copy1, #wrapper #stage #frame_2, #wrapper #stage #frame_2 #f2_copy1, #wrapper #stage #frame_2 #ribbon, #wrapper #stage #frame_3, #wrapper #stage #frame_3 #f3_copy, #wrapper #stage #frame_4, #wrapper #stage #frame_4 #f4_copy, #wrapper #stage #frame_4 #icons, #wrapper #stage #frame_4 #icons #icon_briefcase, #wrapper #stage #frame_4 #icons #icon_warning, #wrapper #stage #frame_4 #icons #icon_lamp, #wrapper #stage #end_frame, #wrapper #stage #end_frame #end_frame_copy, #wrapper #stage #checkbox, #wrapper #stage #checkbox #tick, #wrapper #stage #question_mark { display: block; opacity: 0; filter: alpha(opacity=0); }
+
+#wrapper { background: #ffffff; position: absolute; }
+#wrapper #bg_exit { background-color: rgba(255, 255, 255, 0); border: 1px solid #8c8c8c; z-index: 100; }
+#wrapper #stage #frame_1 { z-index: 4; }
+#wrapper #stage #frame_1 #f1_copy1 { background: url("images/f1-copy1.png") no-repeat; }
+#wrapper #stage #frame_1 #f1_copy2 { background: url("images/f1-copy2.png") no-repeat; top: -140px; }
+#wrapper #stage #frame_2 { z-index: 4; /*#f2_copy2 { @extend .display-ad-size; @extend .hide-abs-pos; background: url('images/f2-copy2.png') no-repeat;   
+}*/ }
+#wrapper #stage #frame_2 #f2_copy1 { background: url("images/f2-copy1.png") no-repeat; }
+#wrapper #stage #frame_2 #ribbon { background: url("images/ribbon.png") no-repeat; z-index: 5; }
+#wrapper #stage #frame_3 { z-index: 4; }
+#wrapper #stage #frame_3 #f3_copy { background: url("images/f3-copy.png") no-repeat; }
+#wrapper #stage #frame_4 { z-index: 4; }
+#wrapper #stage #frame_4 #f4_copy { background: url("images/f4-copy.png") no-repeat; }
+#wrapper #stage #frame_4 #icons #icon_briefcase { background: url("images/icon-briefcase.png") no-repeat; }
+#wrapper #stage #frame_4 #icons #icon_warning { background: url("images/icon-warning.png") no-repeat; }
+#wrapper #stage #frame_4 #icons #icon_lamp { background: url("images/icon-lamp.png") no-repeat; }
+#wrapper #stage #end_frame { z-index: 6; }
+#wrapper #stage #end_frame #end_frame_copy { background: url("images/end-frame-copy.png") no-repeat; }
+#wrapper #stage #checkbox { background: url("images/checkbox.png") no-repeat; z-index: 3; display: block; overflow: hidden; }
+#wrapper #stage #checkbox #tick { background: url("images/tick.png") no-repeat; }
+#wrapper #stage #question_mark { background: url("images/question-mark.png") no-repeat; z-index: 2; height: 600px; top: -48px; }
+#wrapper #stage #chevron { left: -176px; top: 64px; height: 185px; width: 160px; background: #f1201f; z-index: 5; -ms-transform: skewX(-10deg); -webkit-transform: skewX(-10deg); transform: skewX(-10deg); }
+#wrapper #stage #logo { background: url("images/logo.jpg") no-repeat; z-index: 1; }

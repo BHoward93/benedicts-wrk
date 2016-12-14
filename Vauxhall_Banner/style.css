@@ -1,0 +1,30 @@
+body { color: #000000; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.48; border: 0; margin: 0; }
+
+*, :before, :after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+a, img { border: 0; outline: none; }
+
+.display-ad-size, #wrapper, #wrapper #bg_exit, #wrapper #stage, #wrapper #stage #frame_1, #wrapper #stage #frame_1 #f1_copy, #wrapper #stage #frame_2, #wrapper #stage #frame_2 #f2_copy, #wrapper #stage #frame_3, #wrapper #stage #frame_3 #f3_copy, #wrapper #stage #frame_4, #wrapper #stage #frame_4 #lock_up, #wrapper #stage #end_frame, #wrapper #stage #end_frame #cta, #wrapper #stage #end_frame #logo_2, #wrapper #stage #logo, #wrapper #stage #red_bg, #wrapper #stage #getIn_img { margin: 0; padding: 0; width: 300px; height: 250px; top: 0; left: 0; overflow: hidden; -webkit-backface-visibility: hidden; cursor: pointer; position: absolute; }
+
+.display-abs-pos, #wrapper #stage #frame_1 #eng_img, #wrapper #stage #frame_1 #f1_copy, #wrapper #stage #frame_2 #f2_copy, #wrapper #stage #frame_3 #f3_copy, #wrapper #stage #frame_4 #lock_up, #wrapper #stage #end_frame #cta, #wrapper #stage #end_frame #logo_2, #wrapper #stage #logo, #wrapper #stage #red_bg { display: block; opacity: 1; filter: alpha(opacity=1); }
+
+.hide-abs-pos, #wrapper #stage #frame_1, #wrapper #stage #frame_2, #wrapper #stage #frame_3, #wrapper #stage #frame_4, #wrapper #stage #end_frame, #wrapper #stage #getIn_img { display: block; opacity: 0; filter: alpha(opacity=0); }
+
+#wrapper { background: #ffffff; position: absolute; }
+#wrapper #bg_exit { background-color: rgba(255, 255, 255, 0); border: 1px solid #8c8c8c; z-index: 100; }
+#wrapper #stage #frame_1 { z-index: 4; }
+#wrapper #stage #frame_1 #eng_img { background: url("images/eng-img.jpg") no-repeat; z-index: 4; height: 250px; width: 150px; top: 0; left: -150px; position: absolute; }
+#wrapper #stage #frame_1 #f1_copy { background: url("images/f2-copy.png") no-repeat; z-index: 5; }
+#wrapper #stage #frame_2 { z-index: 4; }
+#wrapper #stage #frame_2 #f2_copy { background: url("images/f4-copy.png") no-repeat; z-index: 4; }
+#wrapper #stage #frame_3 { z-index: 4; }
+#wrapper #stage #frame_3 #f3_copy { background: url("images/f5-copy.png") no-repeat; z-index: 4; }
+#wrapper #stage #frame_4 { z-index: 4; /*FOR IN CASE THEY WANT SOMEITHING SEXIER*/             /*#eng_badge { @extend .display-ad-size; @extend .display-abs-pos; background: url('images/eng-badge.png') no-repeat; z-index: 4; left: -300px; }
+ #vxl_badge { @extend .display-ad-size; @extend .display-abs-pos; background: url('images/vauxhall-badge.png'); z-index: 4; left: 300px; }*/ }
+#wrapper #stage #frame_4 #lock_up { background: url("images/lock-up.png") no-repeat; z-index: 4; }
+#wrapper #stage #end_frame { z-index: 6; }
+#wrapper #stage #end_frame #cta { background: url("images/cta.png") no-repeat; top: 120px; z-index: 6; }
+#wrapper #stage #end_frame #logo_2 { background: url("images/logo-2.png") no-repeat; z-index: 5; }
+#wrapper #stage #logo { background: url("images/logo.png") no-repeat; z-index: 5; }
+#wrapper #stage #red_bg { background: #cc0000; background-repeat: no-repeat; z-index: 3; }
+#wrapper #stage #getIn_img { background: url("images/getIn-img.jpg") no-repeat; }

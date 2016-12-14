@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W10_HulfordsPenOff_UK_300x250_Ban_v3</title>
+        <meta name="ad.size" content="width=300,height=250">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <style media="screen, projection">
+            #bg1,#bg3 {
+                width: 300px;
+                height: 250px
+            }
+
+            #bg3,#cta {
+                position: absolute
+            }
+
+            a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font: inherit;
+                font-size: 100%;
+                vertical-align: baseline
+            }
+
+            html {
+                line-height: 1
+            }
+
+            ol,ul {
+                list-style: none
+            }
+
+            table {
+                border-collapse: collapse;
+                border-spacing: 0
+            }
+
+            caption,td,th {
+                text-align: left;
+                font-weight: 400;
+                vertical-align: middle
+            }
+
+            blockquote,q {
+                quotes: none
+            }
+
+            blockquote:after,blockquote:before,q:after,q:before {
+                content: "";
+                content: none
+            }
+
+            a img {
+                border: none
+            }
+
+            article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+                display: block
+            }
+
+            *,:after,:before {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box
+            }
+
+            #bg1,#bg2,#bg4,#click_through,#f1_copy,#f2_copy,#f4_copy,#legal,#legal_hover,#logo1,#logo2,#product,#rollover,#wrapper,.abs-pos {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+                height: 250px;
+                overflow: hidden
+            }
+
+            #wrapper {
+                position: relative;
+                visibility: hidden
+            }
+
+            #wrapper.show {
+                visibility: visible
+            }
+
+            #click_through {
+                z-index: 999;
+                cursor: pointer;
+                background-color: rgba(255,255,255,0);
+                border: 1px solid #000
+            }
+
+            #bg1 {
+                background: url(./bg1.jpg) no-repeat
+            }
+
+            #bg2 {
+                background: url(./bg2.jpg) no-repeat;
+                width: 350px
+            }
+
+            #bg3 {
+                background: url(./bg3.jpg) no-repeat
+            }
+
+            #bg4 {
+                background: #eee
+            }
+
+            #f1_copy {
+                background: url(./fullscreen-s66d1005f03.png)
+            }
+
+            #f2_copy {
+                background: url(./fullscreen-s66d1005f03.png) 0 -250px
+            }
+
+            #f4_copy {
+                background: url(./fullscreen-s66d1005f03.png) 0 -750px
+            }
+
+            #product {
+                background: url(./fullscreen-s66d1005f03.png) 0 -2000px
+            }
+
+            #logo1 {
+                background: url(./fullscreen-s66d1005f03.png) 0 -1500px
+            }
+
+            #logo2 {
+                background: url(./fullscreen-s66d1005f03.png) 0 -1750px
+            }
+
+            #legal {
+                background: url(./fullscreen-s66d1005f03.png) 0 -1250px
+            }
+
+            #legal_hover {
+                background: url(./fullscreen-s66d1005f03.png) 0 -1000px;
+                display: none
+            }
+
+            #learnmore1,#learnmore2 {
+                width: 96px;
+                height: 28px;
+                position: relative;
+                background: url(./learnmore.png) no-repeat
+            }
+
+            #cta {
+                width: 96px;
+                height: 28px;
+                left: 32px;
+                top: 108px;
+                overflow: hidden;
+                background: #0078d7
+            }
+        </style>
+        <script type="text/javascript">
+            window.clickVariable = "{{PUB_CLICKTHROUGH}}";
+        </script>
+    </head>
+    <body>
+        <noscript>
+            <a href="{{PUB_CLICKTHROUGH}}" target="_blank">
+                <img src="img/static.jpg" alt="static backup">
+            </a>
+        </noscript>
+        <div id="wrapper">
+            <a onclick="window.open(window.clickVariable)" target="_blank">
+                <div id="click_through"></div>
+            </a>
+            <div id="bg1"></div>
+            <div id="f1_copy"></div>
+            <div id="bg2"></div>
+            <div id="bg3"></div>
+            <div id="f2_copy"></div>
+            <div id="bg4"></div>
+            <div id="product"></div>
+            <div id="f4_copy"></div>
+            <div id="logo1"></div>
+            <div id="logo2"></div>
+            <div id="legal"></div>
+            <div id="legal_hover"></div>
+            <div id="cta">
+                <div id="learnmore1"></div>
+                <div id="learnmore2"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script type="text/javascript">
+            var MU=MU||{};!function(){"use strict";function s(s){if("string"==typeof s)for(var t=0;t<this.length;t++)if(1===this[t].nodeType&&this[t].className.match(new RegExp("(\\s|^)"+s+"(\\s|$)")))return!0;return!1}function t(s){if("string"==typeof s)for(var t=0;t<this.length;t++)if(!this.hasClass(s))for(var e=0;e<this.length;e++)this[e].className+=(""===this[e].className?"":" ")+s;return this}function e(s){if("string"==typeof s)for(var t=0;t<this.length;t++)if(this.hasClass(s)){var e=new RegExp("(\\s|^)"+s+"(\\s|$)");this[t].className=this[t].className.replace(e," ")}return this}MU.$=function(r){var i,a=!!document.querySelectorAll;if(a)try{i=document.querySelectorAll(r),i.hasClass=s,i.addClass=t,i.removeClass=e}catch(n){}return i}}();
+        </script>
+        <script type="text/javascript">
+            var MU=MU||{};!function(){"use strict";MU.useFallback=function(){var e=9,n=-1,a=navigator.userAgent,r=new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");return null!==r.exec(a)&&(n=parseFloat(RegExp.$1)),n>0&&n<=e}}();
+        </script>
+        <script type="text/javascript">
+            "use strict";var nameSpace=MU||{};!function(){function e(){var e=document.getElementById("legal_hover");click_through.onmousemove=function(a){var n=a.clientX,t=a.clientY;n>=201&&n<=287&&t>=222&&t<=230?(e.style.display="block",TweenMax.from(e,.5,{y:0,opacity:1,ease:Cubic.easeInOut})):(e.style.display="none",TweenMax.to(e,.5,{y:79,opacity:0,ease:Cubic.easeInOut}))},click_through.onmouseleave=function(){e.style.display="none"}}var a,n,t,o,c,r,i,s,l,m,p,f,y,d,u,w,x,S=300;nameSpace.init=function(){n=nameSpace.$("#wrapper"),t=nameSpace.$("#click_through"),o=nameSpace.$("#logo2"),c=nameSpace.$("#logo1"),r=nameSpace.$("#cta"),w=nameSpace.$("#legal"),x=nameSpace.$("#legal_hover"),i=nameSpace.$("#learnmore1"),s=nameSpace.$("#learnmore2"),l=nameSpace.$("#bg1"),m=nameSpace.$("#bg2"),p=nameSpace.$("#bg3"),f=nameSpace.$("#f1_copy"),y=nameSpace.$("#f2_copy"),d=nameSpace.$("#f4_copy"),u=nameSpace.$("#product"),n.addClass("show"),nameSpace.initAnimation(),nameSpace.useFallback()?nameSpace.injectFallback():nameSpace.startAnimation()},nameSpace.injectFallback=function(){for(var e=document.body;e.firstChild;)e.removeChild(e.firstChild);var a=document.createElement("a");a.href=window.clickVariable,a.target="_blank";var n=new Image;n.src="static.jpg",a.appendChild(n),document.body.appendChild(a)},nameSpace.initAnimation=function(){var n=document.getElementById("click_through");n.onmouseover=function(){TweenMax.set(i,{rotationZ:.01,force3D:!0,y:-1}),TweenMax.set(s,{rotationZ:.01,force3D:!0,y:0}),TweenMax.to(i,.15,{rotationZ:.01,force3D:!0,y:-28,ease:Linear.easeNone}),TweenMax.to(s,.15,{rotationZ:.01,force3D:!0,y:-28,ease:Linear.easeNone})},a=new TimelineMax({delay:.1,onComplete:nameSpace.onAnimationComplete}),a.pause(),TweenMax.set(p,{opacity:0,scale:.47,x:-48,y:24,z:.01}),TweenMax.set([m,bg4,u],{left:S}),TweenMax.set([f,y,d],{left:-S}),TweenMax.set([l,o,w],{opacity:0}),TweenMax.set(r,{x:-S}),a.add([TweenMax.set(l,{opacity:1,z:.01,ease:Sine.easeIn,transformPerspective:400}),TweenMax.to(l,2,{scale:1.11,z:.01,transformPerspective:400}),TweenMax.to(f,.5,{left:0,delay:.5,z:.01,transformPerspective:400}),TweenMax.to([f,l],.5,{left:-S,delay:3,z:.01,ease:Sine.easeOut,transformPerspective:400}),TweenMax.to(m,.5,{left:0,z:.01,transformPerspective:400,ease:Sine.easeOut,delay:3}),TweenMax.to(m,2,{x:-50,delay:2.7,z:.01,transformPerspective:400,ease:Power1.easeInOut}),TweenMax.to(p,2,{opacity:1,delay:4.7,z:.01,transformPerspective:400,ease:Power1.easeInOut}),TweenMax.to(y,.5,{left:0,delay:3.2,z:.01,transformPerspective:400}),TweenMax.to(m,1.8,{scale:2.15,x:-55,y:-23,delay:6.2,z:.01,transformPerspective:400,ease:Cubic.easeInOut,transformOrigin:"30% 60%"}),TweenMax.fromTo(p,1.8,{scale:.47,y:24,x:-48},{scale:1,delay:6.2,z:.1,y:0,x:0,ease:Cubic.easeInOut,force3D:!0,rotationZ:.03,transformPerspective:400}),TweenMax.to([m,y],.6,{left:-S,delay:9.6,z:.01,ease:Sine.easeInOut,transformPerspective:400}),TweenMax.to([bg4,u],.6,{left:0,delay:9.6,z:.01,ease:Sine.easeInOut,transformPerspective:400}),TweenMax.to(c,.4,{opacity:0,delay:9.8,z:.01,transformPerspective:400}),TweenMax.to(o,.4,{opacity:1,delay:9.8,z:.01,transformPerspective:400}),TweenMax.to(d,.4,{left:0,delay:10,z:.01,transformPerspective:400}),TweenMax.to(r,.5,{x:0,delay:10.3,z:.01,transformPerspective:400}),TweenMax.to(w,.5,{opacity:1,delay:10.3,z:.01,transformPerspective:400,onComplete:e})]),TweenMax.ticker.addEventListener("tick",nameSpace.onTick)},nameSpace.startAnimation=function(){a.play()},nameSpace.onTick=function(){},nameSpace.onAnimationComplete=function(){}}();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+				MU.init();
+			};
+        </script>
+    </body>
+</html>
