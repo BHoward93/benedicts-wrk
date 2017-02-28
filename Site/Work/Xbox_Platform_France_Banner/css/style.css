@@ -1,0 +1,63 @@
+body { color: #000000; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.48; border: 0; margin: 0; }
+
+*, :before, :after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+a, img { border: 0; outline: none; }
+
+img.trans { opacity: .75; position: absolute; top: 0; left: 0; width: 300px; height: 250px; }
+
+.display-ad-size, #wrapper, #wrapper #stage { display: block; margin: 0; padding: 0; width: 300px; height: 250px; overflow: hidden; -webkit-backface-visibility: hidden; background: #000000; cursor: pointer; }
+
+.display-abs-pos { position: absolute; display: block; left: 0px; top: 0px; opacity: 1; filter: alpha(opacity=1); }
+
+.hide-abs-pos { position: absolute; display: block; left: 0px; top: 0px; opacity: 0; filter: alpha(opacity=0); }
+
+#wrapper { position: absolute; }
+#wrapper #backup { display: none; cursor: pointer; position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; }
+#wrapper #stage { border: 1px solid #000000; position: absolute; display: none; /*GAME LOGOS*/ }
+#wrapper #stage .gradient { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#474747+0,0e0e0e+100 */ background: #474747; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */ background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0NzQ3NDciIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGUwZTBlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-radial-gradient(center, ellipse cover, #474747 0%, #0e0e0e 100%); /* FF3.6+ */ background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #474747), color-stop(100%, #0e0e0e)); /* Chrome,Safari4+ */ background: -webkit-radial-gradient(center, ellipse cover, #474747 0%, #0e0e0e 100%); /* Chrome10+,Safari5.1+ */ background: -o-radial-gradient(center, ellipse cover, #474747 0%, #0e0e0e 100%); /* Opera 12+ */ background: -ms-radial-gradient(center, ellipse cover, #474747 0%, #0e0e0e 100%); /* IE10+ */ background: radial-gradient(ellipse at center, #474747 0%, #0e0e0e 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */ }
+#wrapper #stage #imageCrop { overflow: hidden; position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; }
+#wrapper #stage #imageCrop #game01 { background-image: url(../images/gm1-bg.jpg); }
+/*#wrapper #stage #imageCrop #game03 { background-image: url(../images/gm2-bg.jpg); }*/
+#wrapper #stage #imageCrop #game02 { background-image: url(../images/gm3-bg.jpg); }
+#wrapper #stage #imageCrop #game03 { background-image: url(../images/gm4-bg.jpg); }
+#wrapper #stage #imageCrop .game { position: absolute; opacity: 0; left: 0px; top: 0px; width: 300px; height: 250px; z-index: 3; -webkit-box-shadow: inset -150px 0px 120px 100px rgba(0, 0, 0, 0.8); -moz-box-shadow: inset -150px 0px 120px 100px rgba(0, 0, 0, 0.8); box-shadow: inset -150px 0px 120px 100px rgba(0, 0, 0, 0.8); }
+#wrapper #stage #imageCrop .shadow { -webkit-box-shadow: inset 120px 0px 50px 25px transparent; -moz-box-shadow: inset 120px 0px 50px 25px transparent; box-shadow: inset 120px 0px 50px 25px transparent; -webkit-transition: box-shadow 2s linear; -o-transition: box-shadow 2s linear; -moz-transition: box-shadow 2s linear; -ms-transition: box-shadow 2s linear; -kthtml-transition: box-shadow 2s linear; transition: box-shadow 2s linear; }
+#wrapper #stage #logos { display: block; margin: 0; padding: 0; width: 300px; height: 250px; }
+#wrapper #stage #logos #gmLogo01 { background-image: url("../images/gm1-logo.png"); position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; z-index: 5; }
+/*#wrapper #stage #logos #gmLogo03 { background-image: url("../images/gm2-logo.png"); position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; z-index: 5; }*/
+#wrapper #stage #logos #gmLogo02 { background-image: url("../images/gm3-logo.png"); position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; z-index: 5; }
+#wrapper #stage #logos #gmLogo03 { background-image: url("../images/gm4-logo.png"); position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; z-index: 5; }
+#wrapper #stage #fr1_copy { z-index: 8; position: absolute; top: 0px; left: 0px; height: 250px; width: 300px; }
+#wrapper #stage #fr4_copy { z-index: 8; position: absolute; top: 0px; left: 0px; height: 250px; width: 300px; }
+#wrapper #stage .xBoxLogo { position: absolute; background-image: url(../images/xbox-logo.png); left: 0px; top: 0px; width: 300px; height: 250px; z-index: 38; opacity: 0; }
+#wrapper #stage #logo_partner { position: absolute; background-image: url(../images/logo-partner.png); left: 0px; top: 0px; width: 300px; height: 250px; z-index: 38; opacity: 0; }
+#wrapper #stage #legal { position: absolute; background-image: url(../images/legal.png); left: 0px; top: 0px; width: 300px; height: 250px; z-index: 38; opacity: 0; }
+#wrapper #stage #xBoxProduct { position: absolute; width: 300px; height: 250px; left: 0px; top: 0; z-index: 13; }
+#wrapper #stage #controller { background-image: url(../images/xbox_controller.png); position: absolute; width: 300px; height: 250px; left: 0px; top: 0; z-index: 14; }
+#wrapper #stage #console { background-image: url(../images/xbox_console.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 13; }
+#wrapper #stage #headset { background-image: url(../images/headset.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 13; }
+#wrapper #stage #gold_card { background-image: url(../images/gold-card.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 13; }
+#wrapper #stage #plus { background-image: url(../images/plus-icon.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 13; }
+#wrapper #stage #ou_1 { background-image: url(../images/ou-1.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 13; }
+#wrapper #stage #ou_2 { background-image: url(../images/ou-2.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 13; }
+#wrapper #stage #cta { width: 300px; height: 250px; left: 0px; top: 0; position: absolute; z-index: 100; }
+#wrapper #stage #cta .ctaTextColor { fill: #ffffff;}
+#wrapper #stage #cta .bgColor { fill: none; }
+#wrapper #stage #cta .st1 { fill: none; }
+#wrapper #stage #cta .st2 { fill: rgba(255, 255, 255, 0);}
+#wrapper #stage #footer { width: 300px; height: 25px; left: 0px; top: 225px; background-color: #107c10; /*#107c10;*/ position: absolute; z-index: 9; overflow: hidden; }
+#wrapper #stage #copy_footer3 { background-image: url(../images/copy_footer1.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; background-repeat: no-repeat; z-index: 13; opacity: 0; }
+#wrapper #stage #fr1_copy #copy1_1 { background-image: url(../images/copy1-1.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #fr1_copy #copy1_2 { background-image: url(../images/copy1-2.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #fr1_copy #copy1_3 { background-image: url(../images/copy1-3.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #fr1_copy #copy1_4 { background-image: url(../images/copy1-4.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #fr4_copy #jump_copy1 { background-image: url(../images/jump-copy1.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #fr4_copy #jump_copy2 { background-image: url(../images/jump-copy2.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #fr4_copy #jump_copy3 { background-image: url(../images/jump-copy3.png); width: 300px; height: 250px; position: absolute; background-repeat: no-repeat; opacity: 0; }
+#wrapper #stage #offer_now { background-image: url(../images/offer-now.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; background-repeat: no-repeat; z-index: 13; opacity: 0; }
+#wrapper #stage #offer_price { background-image: url(../images/offer-price.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; background-repeat: no-repeat; z-index: 13; opacity: 0; }
+#wrapper #stage #offer_promo { background-image: url(../images/offer-promo.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; background-repeat: no-repeat; z-index: 13; opacity: 0; }
+#wrapper #stage #copy_footer02 { background-image: url(../images/copy_footer2.png); width: 300px; height: 250px; left: 0px; top: 0; position: absolute; background-repeat: no-repeat; z-index: 13; opacity: 0; }
+#ctaBG_dark {stroke: #fff; stroke-width: 2px;}
+#wrapper #stage #cta-new {height: 250px; width: 300px; background-image: url(../images/cta.png); position: absolute; left: 0px; top: 0px; z-index: 100;}
