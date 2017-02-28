@@ -1,0 +1,38 @@
+body {
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color: #1ba7bf;
+}
+
+h2 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.thumb-copy {
+    top:50%;
+    position:relative;
+}
+
+.sticky-container {
+    z-index: 20;
+}
+
+.no-gutter {
+    padding-bottom: 0; !important
+    margin-bottom: 0; !important
+}
+
+.gradient-bg {
+    padding: 10px;
+    background: -moz-linear-gradient(top, rgba(0,148,170,0.6) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,148,170,0.6) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,148,170,0.6) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990094aa', endColorstr='#007db9e8',GradientType=0 );
+}

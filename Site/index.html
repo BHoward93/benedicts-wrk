@@ -1,32 +1,133 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-<title>Ben's Web Exxamples</title>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<style type="text/css">
-body { color:#000000; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.48; border: 0; margin: 0;}
-h1 {font-size: 1.4em;}
-</style>
-</head>
-<body>
-    <h1>Welcome to my temporary Portfolio site!</h1>
-    <h2>Please select a link below to view my handywork!</h2>
-    
-    <ul>
-        <li><a href="Normand_Site/index.html" target="_blank">A homepage mockup for a porperty developer I interned for</a></li>
-        <li><a href="Jaeger_Task/index.html" target="_blank">A page I built from a PSD for a technical task</a></li>
-        <li><a href="Direct_Line_Banner/index.html" target="_blank">A Banner I made while working at MRM</a></li>
-        <li><a href="MS_Surface_Banner/index.html" target="_blank">A Banner I made while working at MRM</a></li>
-        <li><a href="Vauxhall_Banner/index.html" target="_blank">A Banner I made while working at MRM</a></li>
-        <li><a href="Windows_10_Banner/index.html" target="_blank">A Banner I made while working at MRM</a></li>
-        <li><a href="Xbox_Platform_France_Banner/index.html" target="_blank">A Banner I made while working at MRM</a></li>
-    </ul>
-    
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHWD</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo:200,300,400" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row small-collapse" id="home">
+        <div class="small-7 columns">
+            <img src="img/logo.png" style="padding-left:10px;"/>
+        </div>
+        <div class="small-5 columns">
+            <img src="img/polygon.png" class="float-right"/>
+        </div>
+    </div>
+    <div data-sticky-container class="row">
+        <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="150">
+          <div class="top-bar-left">
+            <ul class="menu">
+              <li><a id="homeBtn">Home</a></li>
+              <li><a id="aboutBtn">About Me</a></li>
+              <li><a id="workBtn">My Work</a></li>
+              <li><a id="contactBtn">Contact Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    <div class="row no-gutter">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="img/Slide-1.png" alt="Horror poster design">
+              <figcaption class="orbit-caption">Design work from sixth form college</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/Slide-2.png" alt="Images for their facebook page">
+              <figcaption class="orbit-caption">Design work from Dixons Carphone</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/Slide-3.png" alt="Two screen designs for my app and a poster design for a project">
+              <figcaption class="orbit-caption">Design work from University</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/Slide-4.png" alt="A page design I did for their website">
+              <figcaption class="orbit-caption">Design work from Zoo Comms</figcaption>
+            </li>
+          </ul>
+          <nav class="orbit-bullets" style="border-bottom: 3px solid #1ba7bf">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+          </nav>
+        </div>
+    </div>
+    <div class="row gradient-bg">  
+        <div class="row" id="about">
+            <div class="small-12 columns">
+                <h1>About Me</h1>
+                <p>I am a Junior Developer looking to continue gaining experience from either freelance or permanent roles. Having worked for 11 months within a large scale advertising agency, primarily on banners, I'm looking to extend my experise towards front end web development.</p>
 
-</body>
+                <p>I have successfully completed three digital development/marketing internships - two with digital marketing firms and the third with a major technology retailer. I was effective whether working independently or collaboratively, ‘fitting in’ productively with well-established teams operating on ‘Agile’ principles and successfully delivering against frequently challenging deadlines.</p>
+
+                <p>I am recently qualified at degree level with a BSc (Hons) in Digital Media Development, including the completion of comparative research into the impact of current drag-and-drop front-end development tools/techniques. Over the course of the degree I worked on live client projects for organisations such as Hampshire Constabulary and The Royal Green Jackets</p>
+            </div>
+        </div>
+        <div class="row" id="work">
+            <div class="small-12 columns">
+                <h1 class="float-right" style="padding-right:10px">My Work</h1>
+            </div>
+        </div>
+        <div class="row">
+            <p class="text-center">Below is a collection of links to various pieces of work I have done either while on internships or in full time work.</p>
+        </div>
+        <div class="row">
+            <div class="small-2 columns"></div>
+            <div class="small-10 columns">
+                <ul>
+                    <li><a href="Work/Direct_Line_Banner/index.html" target="_blank">This is a banner I made for Direct Line while working at the MRM Meteorite office. Using HTML5, CSS/SASS and JavaScript (Greensock).</a></li>
+                    <br>
+                    <li><a href="Work/MS_Surface_Banner/index.html" target="_blank">This is a banner I made for Microsoft Surface while working at the McCann London office. Using HTML5, CSS/SASS and JavaScript (Greensock).</a></li>
+                    <br>
+                    <li><a href="Work/Vauxhall_Banner/index.html" target="_blank">This is a banner I made for Vauxhall Motors while working at the MRM Metorite office. Using HTML5, CSS/SASS and JavaScript (Greensock).</a></li>
+                    <br>
+                    <li><a href="Work/Windows_10_Banner/index.html" target="_blank">This is a banner I made for Microsoft Windows 10 while working at the McCann London office. Using HTML5, CSS/SASS and JavaScript (Greensock).</a></li>
+                    <br>
+                    <li><a href="Work/Xbox_Platform_France_Banner/index.html" target="_blank">This is a banner I made for Microsoft Xbox France while working at the McCann London office. Using HTML5, CSS/SASS and JavaScript (Greensock).</a></li>
+                    <br>
+                    <li><a href="Work/Normand_Site/index.html" target="_blank">This is a prototype website I made for Normand Developments while on an internship with their sister company, Zoo Communications. Using ZURB's Foundation 5 framework</a></li>
+                    <br>
+                    <li><a href="Work/Jaeger_Task/index.html" target="_blank">This is a page layout that I built as a technical test for Jaeger. Using the Bootstrap 3 framework</a></li>
+                </ul>
+            </div>
+            <div class="small-2 columns"></div>
+        </div>
+        <div class="row">
+            <div class="small-12 columns text-center">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+        <div class="row" id="contact">
+            <div class="small-2 columns">
+                <br>
+            </div>
+            <div class="small-8 columns text-center">
+                <p>If you'd like to get a hold of me for contract work or permanent work, you can contact me via email to request my CV or if you'd prefer I have Linked In fully stocked with everything from my CV.</p>
+                <br>
+                <p>Email: bve.howard@live.co.uk</p>
+                <br>
+                <p>Linked In: <a href="https://uk.linkedin.com/in/ben-howard-249a4790" target="_blank">My Profile</a></p>
+            </div>
+            <div class="small-2 columns">
+            </div>
+        </div>
+    </div>
+                    <!--  ADD FOOTER HERE WITH BASIC PRIVACY POLICY ETC  -->
+    <script src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
