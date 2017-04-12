@@ -1,0 +1,205 @@
+body {
+    background: #fff;
+    font-family: sans-serif;
+    height: 1175px;
+}
+
+form p {
+    padding-left: 12px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+form {
+    height: 405px;
+}
+
+.confirmation {
+    opacity: 1;
+    margin-left: 18%;
+    position: absolute;
+    top: 590px;
+}
+
+#submit {
+    position: relative;
+    top: -750px;
+    left: 500px;
+    background: url(../img/submit.png);
+    height: 59px;
+    width: 126px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    
+}
+
+#date1 {
+    position: relative;
+    top: -730px;
+    left: 500px;
+    height: 25px;
+}
+
+#date2 {
+    position: relative;
+    top: -790px;
+    left: 710px;
+    height: 25px;
+}
+
+.right {
+    position: relative;
+    width: 400px;
+    top: -740px;
+    left: 490px;
+}
+
+.right2 {
+    position: relative;
+    width: 400px;
+    top: -800px;
+    left: 700px;
+}
+
+.form-title {
+    left: 40px;
+    position: relative;
+}
+
+.seperator {
+    left: 50%;
+    position: relative;
+    top: -384px;
+}
+
+.email-panel {
+    background-color: #d7d7d7;
+    height: 90px;
+    width: 390px;
+    position: relative;
+    padding: 20px;
+    opacity: 0;
+    left: 20px;
+}
+
+.email {
+    height: 25px;
+    width: 360px;
+    left: 10px;
+    position: relative;
+}
+
+.checkbox {
+    position: relative;
+    left: -285px;
+}
+
+.checkboxL {
+    position: relative;
+    left: -285px;
+}
+
+.fname {
+    padding-left: 12px;
+    margin-left: 12px;
+    height: 25px;
+    width: 430px;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+.mname {
+    padding-left: 12px;
+    margin-left: 12px;
+    height: 25px;
+    width: 120px; !important
+}
+
+.sname {
+    height: 25px;
+    width: 290px;
+    position: relative;
+    top: -71px;
+    left: 165px;
+}
+
+.snameL {
+    height: 25px;
+    width: 290px;
+    position: relative;
+    top: -64px;
+    left: 155px;
+}
+
+.fast {
+    position: absolute;
+    z-index: 4;
+    top: -22px;
+    left: 20px;
+}
+
+.slow {
+    position: absolute;
+    z-index: 2;
+    top: 160px;
+}
+
+.medium {
+    position: absolute;
+    z-index: 3;
+    top: -85px;
+}
+
+.text {
+    position: absolute;
+    margin-left: 18%;
+    z-index: 5;
+}
+
+.parallax {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 305px;
+    z-index: 1;
+    top: 244px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.copy-1 {
+    position: absolute;
+    top: 103px;
+    margin-left: 18%;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    margin-left: 18%;
+}
+
+.form {
+    background-color: #e5e5e5;
+    width: 940px;
+    margin-left: 18%;   
+    height: 405px;
+    position: absolute;
+    display: block;
+    top: 590px;
+    overflow: hidden;
+}
+
+.footer {
+    height: 140px;
+    width: 100%;
+    top: 1035px;
+    left: 0px;
+    position: absolute;
+    background-color: #000;
+}
