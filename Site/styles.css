@@ -7,6 +7,9 @@ h1 {
     font-family: 'Exo', sans-serif;
     font-weight: 200;
     color: #1ba7bf;
+    font-size: 70px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
